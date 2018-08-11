@@ -4,8 +4,6 @@
 
 # Understanding the Request / Response Cycle
 
-Welcome James Matthews from Using Python to Access Web Data
-
 Exploring the HyperText Transport Protocol
 
 You are to retrieve the following document using the HTTP protocol in a way that you can examine the HTTP Response headers.
