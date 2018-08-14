@@ -4,8 +4,6 @@
 
 # Following Links in HTML Using BeautifulSoup
 
-Welcome James Matthews from Using Python to Access Web Data
-
 ### Following Links in Python
 
 In this assignment you will write a Python program that expands on http://www.py4e.com/code3/urllinks.py. The program will use `urllib` to read the HTML from the data files below, extract the `href= vaues` from the anchor tags, scan for a tag that is in a particular position relative to the first name in the list, follow that link and repeat the process a number of times and report the last name you find.
@@ -29,7 +27,8 @@ Here is a sample execution of a solution:
 
 ```
 $ python3 solution.py
-Enter URL: http://py4e-data.dr-chuck.net/known_by_Fikret.html
+Enter URL:
+http://py4e-data.dr-chuck.net/known_by_Fikret.html
 Enter count: 4
 Enter position: 3
 Retrieving: http://py4e-data.dr-chuck.net/known_by_Fikret.html
