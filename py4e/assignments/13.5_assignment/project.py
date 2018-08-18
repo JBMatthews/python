@@ -15,7 +15,7 @@ while True:
     print('Retrieved', len(data), 'characters')
     tree = ET.fromstring(data)
 
-    stuff = tree.findall('.//count')
+    stuff = tree.findall('comments/comment')
     for thing in stuff:
         count = count + 1
         sum = sum + int(thing.find('count').text)
