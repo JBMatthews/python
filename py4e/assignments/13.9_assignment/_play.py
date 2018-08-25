@@ -11,7 +11,6 @@ import json
 
 count = 0
 
-# 1. Prompt for a url
 while True:
     url = input('Enter location: ')
     if len(url) < 1: break
