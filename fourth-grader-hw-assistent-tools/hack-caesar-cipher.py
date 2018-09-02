@@ -24,6 +24,7 @@ for key in range(len(LETTERS)):
 
 # add number's symbol at the end of translated
             translated = translated + LETTERS[num]
+
         else:
         # just add the symbol without encrypting/decrypting
             translated = translated + symbol
