@@ -1,5 +1,4 @@
 # Caesar Cipher Hacker
-
 message = 'GUVF VF ZL FRPERG ZRFFNTR.'
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 

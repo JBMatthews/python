@@ -1,4 +1,3 @@
-
 # USER INPUT
 pick = input("Type PERIMETER or AREA? ")
 upcase = pick.upper()
@@ -17,4 +16,4 @@ elif upcase == "AREA":
     result = num1 * num2
     print("The area is: " + str(result))
 else:
-    print("Try Again!")
+    print("Try Again! ...probably just spelling error. ")

@@ -1,7 +1,4 @@
-#
 # MAKE EXPANDED FORM
-#
-
 inpt = int(input("Enter a number to compare it to: "))
 
 def expanded_form(num):
