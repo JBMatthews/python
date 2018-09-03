@@ -1,31 +1,26 @@
-import turtle
 from os import system
 
-system('say something')
+# USER INPUT
+pick = input("PERIMETER or AREA?")
+print("You've choosen: " + pick)
 
-xsay = input("Enter first number: ")
-ysay = input("Enter second number, now: ")
+xsay = input("Enter your first number: ")
+ysay = input("Enter your second number: ")
+
+
 
 num1 = int(xsay)
 num2 = int(ysay)
 
+# LOOP LOGIC
+if pick == "O":
+    # -- CALC PERIMETER
+    result = num1 + num2 + num1 + num2
+    print(result)
+    # system('say ' + str(result)
 
-# CALC SQ. FEET
-result = num1 * num2
-system('say ' + str(result))
-
-# CALC PERIMETER
-result = num1 + num2 + num1 + num2
-system('say ' + str(result))
-
-# TURTLE DRAWING
-turtle.shape("turtle")
-turtle.forward(50)
-turtle.left(90)
-turtle.forward(50)
-turtle.left(90)
-turtle.forward(50)
-turtle.left(90)
-turtle.forward(50)
-turtle.left(90)
-turtle.exitonclick()
+else:
+    # -- CALC SQ. FEET
+    result = num1 * num2
+    print(result)
+    # system('say ' + str(result)
