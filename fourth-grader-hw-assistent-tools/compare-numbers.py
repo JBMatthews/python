@@ -1,8 +1,6 @@
 #
 # Compare Numbers
 #
-
-
 from os import system
 
 x = input("Enter your first number: ")

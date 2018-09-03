@@ -1,12 +1,8 @@
 #
-# Make Expanded Form
+# MAKE EXPANDED FORM
 #
 
-from os import system
-
-y = input("Enter a number to compare it to: ")
-
-inpt = int(y)
+inpt = int(input("Enter a number to compare it to: "))
 
 def expanded_form(num):
     result = []

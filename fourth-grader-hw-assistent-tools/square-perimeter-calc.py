@@ -1,26 +1,20 @@
-from os import system
 
 # USER INPUT
-pick = input("PERIMETER or AREA?")
-print("You've choosen: " + pick)
+pick = input("Type PERIMETER or AREA? ")
+upcase = pick.upper()
+print("You've choosen: " + upcase)
 
-xsay = input("Enter your first number: ")
-ysay = input("Enter your second number: ")
-
-
-
-num1 = int(xsay)
-num2 = int(ysay)
+num1 = int(input("Enter your first number: "))
+num2 = int(input("Enter your second number: "))
 
 # LOOP LOGIC
-if pick == "O":
+if upcase == "PERIMETER":
     # -- CALC PERIMETER
     result = num1 + num2 + num1 + num2
-    print(result)
-    # system('say ' + str(result)
-
-else:
+    print("The perimeter is: " + str(result))
+elif upcase == "AREA":
     # -- CALC SQ. FEET
     result = num1 * num2
-    print(result)
-    # system('say ' + str(result)
+    print("The area is: " + str(result))
+else:
+    print("Try Again!")
