@@ -1,4 +1,5 @@
 # USER INPUT
+
 pick = input("Type PERIMETER or AREA? ")
 upcase = pick.upper()
 print("You've choosen: " + upcase)

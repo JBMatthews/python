@@ -1,5 +1,5 @@
 # Caesar Cipher Hacker
-message = 'GUVF VF ZL FRPERG ZRFFNTR.'
+message = 'I MA USPITD'
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 for key in range(len(LETTERS)):
