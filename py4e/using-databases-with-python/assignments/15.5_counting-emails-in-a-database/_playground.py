@@ -1,4 +1,5 @@
 import sqlite3
+import re
 
 conn = sqlite3.connect('emaildb.sqlite')
 cur = conn.cursor()
@@ -28,8 +29,16 @@ for line in fh:
 # https://www.sqlite.org/lang_select.html
 sqlstr = 'SELECT email, count FROM Counts ORDER BY count DESC LIMIT 10'
 
+count = 0
+
 for row in cur.execute(sqlstr):
     print(str(row[0]), row[1])
+    print(row[1])
+    # num = re.findall('[0-9]+', row)
+    # print(num)
+    # for n in num:
+    # count = int(n)
+    # counter = counter + count
+    #     print(counter)
 
-print(row)
 cur.close()
