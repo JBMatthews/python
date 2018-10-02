@@ -1,4 +1,12 @@
 # Instructions
+Welcome James Matthews from Using Databases with Python
+
+To get credit for this assignment, perform the instructions below and upload your SQLite3 database here:
+
+(Must have a `.sqlite` suffix)
+Hint: The top organizational count is `536`.
+You do not need to export or convert the database - simply upload the `.sqlite` file that your program creates. See the example code for the use of the `connect()` statement.
+
 ##### Counting Organization Emails
 This application will read the mailbox data (`mbox.txt`) and count the number of email messages per organization (i.e. domain name of the email address) using a database with the following schema to maintain the counts.
 

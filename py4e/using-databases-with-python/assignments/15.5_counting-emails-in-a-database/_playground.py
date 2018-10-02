@@ -33,8 +33,7 @@ count = 0
 
 for row in cur.execute(sqlstr):
     print(str(row[0]), row[1])
-    print(row[1])
-    num = re.findall('@', row[0])
+    num = re.findall('.^\S+', row[0])
     print(num)
     # for n in num:
     # count = int(n)
