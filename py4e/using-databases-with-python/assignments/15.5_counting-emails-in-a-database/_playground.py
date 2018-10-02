@@ -34,8 +34,8 @@ count = 0
 for row in cur.execute(sqlstr):
     print(str(row[0]), row[1])
     print(row[1])
-    # num = re.findall('[0-9]+', row)
-    # print(num)
+    num = re.findall('@', row[0])
+    print(num)
     # for n in num:
     # count = int(n)
     # counter = counter + count
