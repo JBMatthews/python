@@ -1,4 +1,4 @@
-# Instructions
+# INSTRUCTIONS
 Welcome James Matthews from Using Databases with Python
 
 You do not need to export or convert the database - simply upload the .sqlite file that your program creates. See the example code for the use of the `connect()` statement.
