@@ -3,7 +3,7 @@
 Welcome James Matthews from Capstone: Retrieving, Processing, and Visualizing Data with Python
 
 #### Mailing List Data - Part I
-In this assignment you will download some of the mailing list data from http://mbox.dr-chuck.net/ and run the data cleaning / modeling process and take some screen shots.
+In this assignment you will download some of the mailing list data from http://mbox.dr-chuck.net/ and run the data cleaning/modeling process and take some screen shots.
 
 Don't take off points for little mistakes. If they seem to have done the assignment give them full credit. Feel free to make suggestions if there are small mistakes. Please keep your comments positive and useful.
 
